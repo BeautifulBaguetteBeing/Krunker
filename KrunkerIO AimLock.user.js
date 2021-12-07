@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         Krunker.IO AimLock
-// @namespace    http://tampermonkey.net/
-// @version      0.0.4
-// @description  Locks aim to the nearest player in krunker.io
-// @author       Zertalious (Zert)
-// @match        *://krunker.io/*
-// @icon         https://www.google.com/s2/favicons?domain=krunker.io
-// @grant        none
-// @run-at       document-end
-// @require      https://unpkg.com/three@latest/build/three.min.js
-// ==/UserScript==
-
 const tempVector = new THREE.Vector3();
 
 const tempObject = new THREE.Object3D();
